@@ -168,7 +168,7 @@ form {
   z-index: 1000;
   background: white;
   padding: 1vh 5vw;
-  opacity: 0.9;
+  opacity: 1;
   border: 5px #ddd solid;
   border-radius: 5px;
   font-family: "Helvetica Neue", Arial;
@@ -241,6 +241,7 @@ div.dataTables_scrollHead {
 .dataTable * {
   font-family: "Helvetica Neue", Arial;
   border: 0 !important;
+  font-size: "small";
 }
 
 div.dataTables_scrollHead table.display {
