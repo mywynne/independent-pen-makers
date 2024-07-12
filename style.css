@@ -292,6 +292,11 @@ span.legend-icon {
   display: none !important;
 }
 
+.iframe {
+  width: 100%;
+  Height: 90vh;
+}
+
 .ladder form, .ladder div {
   display: block;
 }
