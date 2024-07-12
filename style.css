@@ -6,7 +6,7 @@ body {
   width: 100%;
 }
 
-.leaflet-bar, a {
+leaflet-bar, a {
   color: #0078A8;
 }
 
