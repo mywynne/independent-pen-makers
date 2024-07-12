@@ -8,6 +8,7 @@ body {
 
 .leaflet-bar, a {
   color: #0078A8 !important;
+  text-decoration: underline;
 }
 
 #map {
