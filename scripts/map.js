@@ -765,7 +765,7 @@ $(window).on('load', function() {
 
     if (dispTitle !== 'off') {
       var title = '<h3 class="pointer">' + getSetting('_mapTitle') + '</h3>';
-      var subtitle = '<h5>' + getSetting('_mapSubtitle') + '</h5>';
+      var subtitle = '<p>' + getSetting('_mapSubtitle') + '</p>';
 
       if (dispTitle == 'topleft') {
         $('div.leaflet-top').prepend('<div class="map-title leaflet-bar leaflet-control leaflet-control-custom">' + title + subtitle + '</div>');
